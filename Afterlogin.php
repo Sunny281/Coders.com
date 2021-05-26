@@ -1,0 +1,583 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="indeccss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+<title>Programming Zone</title>
+
+                            <!-- style of Header Image--->
+                                                 <style>
+                                             
+                                                 
+      body{
+  font-family:"Arial", Serif;
+  background-color:#f4f4f4;
+  overflow-x:hidden;
+}
+
+
+
+.navbar a{
+  float:left;
+  display:block;
+  color:white;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+.navbar a:hover{
+  background-color:blue;
+  color:white;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:blue;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:white;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:white;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+#main{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+}
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+  /*.open-slide{display:none}*/
+}
+.aa button:hover{
+      background: linear-gradient(57deg, #1E4D92, #00C6A7 );   
+}
+                                         </style>
+
+ 
+</head> 
+<body>
+                                         <!--top Home System ####################-->
+                    
+ <nav style="background:linear-gradient(lightseagreen,blue);" class="navbar navbar-expand-sm navbar-dark Fixed-top" >
+      
+    <span class="open-slide">
+        
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+        
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+        <a style="color:white;" class="navbar-brand pl-2 font-weight-bold"  ><h2>Coders</h2></a>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+
+       <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="logout.php"style="text-align: center; margin-left:900% ;" >logout</a></li>
+  
+    </ul>
+  
+
+     
+  </nav>
+
+  <div id="side-menu" class="side-nav" style="background:linear-gradient(lightseagreen,blue);">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <li><a href="afterlogin.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="logout.php"style="text-align: center; margin-left:900% ;" >logout</a></li>
+  
+      
+     
+  </div>
+
+    <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+                                           <!-- End top Home system ############-->      
+<style>
+  .containera {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+/*devide two parts*/
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  } 
+}
+
+</style>     
+
+                                   <!--Header Image Section ####################### -->
+
+<div class="Header">
+    <div class="Header-background" ></div>
+         <div class="Header-content">
+            <div class="Header-sun">
+                   
+                <div style="color:blue;text-align:center;">
+                  <img src="img/Prog-langua- Copy.png" style="width:70%; height:70%;">
+                  <br>
+                </div>
+                   <div style="text-align:center;margin-left: 10px; " class="sss" >
+                     <h3><font color="white" >PROGRAMMING ZONE</font></h3>
+   
+                  </div>               
+            </div>              
+        </div>
+</div>
+
+                      <!--End image Section############################################# -->
+                               <!--############################################# -->
+                      <!--Start Courses Section######################################### -->
+
+<div style=" background:linear-gradient(lightseagreen,blue);height: 40%;  width:100%; padding:10px; margin-top:25px; margin-bottom: 25px;"   >
+    <h1 class="text-center pt-4 pb-2" style="color:white" >Our Courses</h1>
+    
+        <div class="row justify-content-center">
+            <div style=" border-radius: 25px;    
+                box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+                height:130px; 
+                width:130px;
+                padding: 10px;
+                margin: 10px;
+                background-color: white;">
+                <a href="Clanguage.html">
+                    <img src="img/CL.png"  height="100px" width="100px" style="display: block;">
+                </a>
+            </div>
+                
+            <div   style=" border-radius: 25px;    
+                box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+                height:130px; 
+                width:130px;
+                padding: 10px;
+                margin: 10px;
+                background-color: white;">
+                <a href="C++.html">
+                    <img src="img/C+.png" height="100px" width="100px"   style="display: block;">
+                </a>
+            </div>
+                
+            <div style=" border-radius: 25px;    
+                box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+                height:130px; 
+                width:130px;
+                padding: 10px;
+                margin: 10px;
+                background-color: white;">
+                <a href="Java.html">
+                    <img src="img/ja.png" height="100px" width="100px"   style="display: block;">
+                </a>
+            </div>
+           
+            <div style=" border-radius: 25px;    
+                box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+                height:130px; 
+                width:130px;
+                padding: 10px;
+                margin: 10px;
+                background-color: white;">
+                <a href="Python.html">
+                    <img src="img/python-img.png" height="100px" width="100px"  style="">
+                </a>
+            </div>
+            
+            <div style=" border-radius: 25px;    
+                box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+                height:130px; 
+                width:130px;
+                padding: 10px;
+                margin: 10px;
+                background-color: white;" >
+                <a href="Html1.html">
+                    <img src="img/html.png"  height="100px" width="100px" style="   display: block;"   >
+                </a>
+            </div>
+                
+            <div style=" border-radius: 25px;    
+                box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+                height:130px; 
+                width:130px;
+                padding: 10px;
+                margin: 10px;
+                background-color: white;">
+                <a href="Css1.html">
+                    <img src="img/css.png" height="100px" width="100px"   style="" >
+                </a>
+            </div>
+                
+            <div style=" border-radius: 25px; 
+
+                box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+                height:130px; 
+                width:130px;
+                padding: 10px;
+                margin: 10px;
+                background-color: white;">
+                <a href="Php.html">
+                    <img src="img/ph.jpg" class="aa" height="100px" width="100px"   style="" >
+                </a>
+            </div>
+                
+           
+    
+            <div style=" border-radius: 25px;    
+               box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+               height:130px; 
+               width:130px;
+               padding: 10px;
+               margin: 10px;
+               background-color: white;">
+                <a href="JavaScrpt.html">
+                    <img src="img/javaSt.png" height="100px" width="100px" >
+                </a>
+            </div>   
+       </div>
+</div>
+
+                      <!--End course Section############################################# -->
+                               <!--############################################# -->
+                      <!--Start Services Section######################################### -->
+                      
+<div style=" background:linear-gradient(lightseagreen,blue); height: 40%; width:100%; padding:10px; margin-top:40px; margin-bottom: 25px;"   >
+    <h1 class="text-center pt-4 pb-2" style="color:white" >Our Services</h1>
+           
+   <div class="row justify-content-center">
+        <div style=" border-radius: 25px;    
+           box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+           height:250px; 
+           width:250px;
+           padding: 10px;
+           margin: 10px;
+           background-color: white;"> 
+           <a href="sunny.html">
+              <img src="img/notes.png"  height="150px" width="200px" style="display: block; margin-left: 8px;"   >
+              <h5 style="text-align: center; margin-top: 20px;">Provide Free Notes</h5>
+           </a>
+        </div>
+                
+        <div   style=" border-radius: 25px;    
+           box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+           height:250px; 
+           width:250px;
+           padding: 10px;
+           margin: 10px;
+           background-color: white;">
+            <a href="sunny.html">
+               <img src="img/Untitled.jpg" height="150px" width="200px"   style="display: block; margin-left: 8px;">
+               <h5 style="text-align: center; margin-top: 25px;">   Provide Free Videos</h5>
+            </a>
+        </div>
+                
+             
+        <div style=" border-radius: 25px;    
+            box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+            height:250px; 
+            width:250px;
+            padding: 10px;
+            margin: 10px;
+            background-color: white;">
+            <a href="sunny.html">
+                <img src="img/compiler.jpg" height="150px" width="200px"   style="text-align:center;margin-left: 15px; margin-top: 20px;">
+                <h5 style="text-align: center; margin-top: 25px;"> Free Practice Zone</h5>
+            </a>
+        </div>
+       
+        <div style=" border-radius: 25px;    
+           box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+           height:250px; 
+           width:250px;
+           padding: 10px;
+           margin: 10px;
+           background-color: white;">
+            <a href="sunny.html">
+                <img src="img/projects.jpg" height="150px" width="200px"   style="display: block; margin-left: 8px;">
+                <h5 style="text-align: center; margin-top: 25px;"> Free Projects And Ideas</h5>
+            </a>
+        </div>
+    </div>
+</div>
+
+                      
+                         <!--End Services Section############################################# -->
+                                 <!--############################################# -->
+                         <!--Start Contact Section############################################# -->
+
+                      
+<div style=" background:linear-gradient(lightseagreen,blue);  width:100%; padding:10px; margin-top:40px; margin-bottom: 25px;"   >
+    <h1 class="text-center pt-4 pb-2" style="color:white" >Contact Us</h1>
+        <form action="/shop/contact/"style="width:100%;" method="post">
+            <div class="form-group" style="width:100%;">
+               <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" name='name' placeholder="Enter Your Name">
+            </div>
+            <div class="form-group" style="width:100%;">
+               <label for="name">Email</label>
+                   <input type="email" class="form-control" id="email" name='email' placeholder="Enter Your Email">
+            </div>
+
+            <div class="form-group"style="width:100%;">
+                <label for="name">Phone</label>
+                    <input type="tel" class="form-control" id="phone" name='phone' placeholder="Enter Your Phone Number">
+            </div>
+
+
+            <div class="form-group"style="width:100%;">
+                <label for="desc">How May We Help You?</label>
+                    <textarea class="form-control" id="desc" name='desc' rows="3"></textarea>
+            </div>
+            
+               <button type="submit" class="btn btn-success"style="width:100%; ">Submit</button>
+               
+        </form>
+    </div>
+</div>
+
+                      <!--End Contact Section############################################# -->
+                               <!--############################################# -->
+                       <!-- Start Team Section############################################# -->
+                  
+<section class="trainer_area section_gap_top" style="margin-top:50px; background:linear-gradient(lightseagreen,black); ">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="main_title">
+                <h2 class="mb-3" style="text-align:center;">Our Team</h2>
+                    <p style="text-align:center;">
+                      Our Team Trying To Provide Best Facilities
+                    </p>
+            </div>
+          </div>
+        </div>
+     <div class="row justify-content-center d-flex align-items-center">
+        <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+           <div class="thumb d-flex justify-content-sm-center">
+            <img class="img-fluid" src="img/sunny.jpg"style="width:250px;" alt="" />
+           </div>
+            <div class="meta-text text-sm-center">
+                <h4 style=color:white;">Sunny Chourasiya</h4>
+                   <p class="designation" style=color:white;"> web designer</p>
+                    <div class="mb-4">
+                       <p style=color:white;">
+                          If you are looking at blank cassettes on the web, you may be very confused at the.
+                       </p>
+                    </div>
+                <div class="align-items-center justify-content-center d-flex">
+                    <a href="#"><i class="ti-facebook"></i></a>
+                     <a href="#"><i class="ti-twitter"></i></a>
+                     <a href="#"><i class="ti-linkedin"></i></a>
+                     <a href="#"><i class="ti-pinterest"></i></a>
+                </div>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/sunny.jpg"style="width:250px;" alt="" />
+            </div>
+              <div class="meta-text text-sm-center">
+                <h4 style=color:white;">Ajay Kumar Verma</h4>
+                  <p class="designation" style=color:white;">Notes Provider</p>
+              <div class="mb-4">
+                 <p style=color:white;">
+                  If you are looking at blank cassettes on the web, you may be very confused at the.
+                 </p>
+              </div>
+            <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/sunny.jpg"style="width:250px" alt="" />
+            </div>
+               <div class="meta-text text-sm-center">
+                  <h4 style=color:white;">Pradeep</h4>
+                    <p class="designation"style=color:white;">Videos Provider</p>
+                  <div class="mb-4">
+                     <p style=color:white;">
+                  If you are looking at blank cassettes on the web, you may be very confused at the.
+                     </p>
+                  </div>
+            <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+            </div>
+         </div>
+        </div>
+
+          
+     </div>
+   </div>
+</section>
+                                           <!--Singup-->
+                       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Signup Here</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form action="Signup.php" method="post" >
+          
+        <div class="form-group">
+    <label for="username">UserName</label>
+    <input type="text" class="form-control" id="username" required name="username" placeholder="Choose unique UserName">
+  </div>
+  <div class="form-group">
+    <label for="fname">First Name</label>
+    <input type="text" class="form-control" id="fname" required name="fname" placeholder="First Name">
+  </div>
+        <div class="form-group">
+    <label for="lname">Last Name</label>
+    <input type="text" class="form-control" name="lname" required id="lname" placeholder="LastName">
+  </div>
+<div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+  </div>
+        <div class="form-group">
+    <label for="pass">Password</label>
+    <input type="password" class="form-control" required id="pass" name="pass" placeholder="Enter Password">
+  </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer"></div>
+    </div>
+  </div>
+</div>
+                            <!-- End Singup -->
+ 
+                      <!--End Team Section############################################# -->
+                             <!--############################################# -->
+                      <!--Start About Section############################################# -->
+
+<footer class="container" style="max-width:100%; margin-top: 0px;" >
+    <div class="row text-white bg-dark" style="border-top:3px solid blue;
+        padding:0px;
+        width:100%;">
+        <div class="row">
+            <div class="col-md-5" style="text-align:center; ">
+                <h3 style="margin:20px;">About Programming Zone</h3>
+                <p style="margin:20px;">PROGRAMMING ZONE provides free programming languages notes,Video, Programming Questions and projects</p>
+            </div>
+
+            <div class="col-md-1 ml-auto">
+                <h3  style="margin-left:20px;">Links</h3>
+                    <ul style="margin-left:20px;" class="list-unstyled footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#languages">Courses</a></li>
+                        <li><a href="#programming">Programming Questions</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+
+                    </ul>
+            </div>
+        </div>
+
+            <div class="col-lg-12">
+                <div >
+                   <span >Follow Us :</span>
+                     <a target="_blank" href="https://www.facebook.com/Programming Zone"  ><i class="fab fa-facebook pr-3 fa-lg"></i></a>
+                     <a target="_blank" href="https://twitter.com/ ProgrammingZone" ><i class="fab fa-twitter pr-3 fa-lg"></i></a>
+                     <a target="_blank" href="#" ><i class="fab fa-youtube pr-3 fa-lg"></i></a>
+                        
+                 </div>
+            </div> <br><br>
+            <div class="col-md-12 text-center">
+                <small> Copyright © 2019 All rights reserved  | Designed by <a href="#" style="color:green">PROGRAMMING ZONE</a></small>
+            </div> <br><br>
+    </div>
+</footer>
+
+                      <!--End About Section############################################# -->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+      
+</body>
+</html>

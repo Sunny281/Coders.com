@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+          
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="indeccss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+<title>Programming Zone</title>
+        <style>
+            .aa{
+             
+            
+            }
+            body{
+              background-color:#0f0f0f;
+            }
+            
+            </style>
+    <style>
+                                             
+                                                 
+      body{
+      
+  font-family:"Arial", Serif;
+  background-color:#f4f4f4;
+  overflow-x:hidden;
+}
+
+
+
+.navbar a{
+  float:left;
+ margin-right:0px;
+  color:white;
+  text-align:center;
+  padding:8px 7px;
+  text-decoration:none;
+  font-size:17px;
+}
+
+.navbar ul{
+  margin:2px 0 0 0;
+  list-style:none;
+}
+
+.navbar a:hover{
+ background:linear-gradient(lightseagreen,black);
+  color:white;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:blue;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:5px;
+  transition:0.5s;
+  margin: 2px;
+}
+
+.side-nav a{
+  padding:5px 5px 5px 5px;
+  text-decoration:none;
+  font-size:22px;
+  color:white;
+  display:block;
+  transition:0.3s;
+  margin: 0px;
+}
+
+.side-nav a:hover{
+  background:linear-gradient(lightseagreen,black);}
+
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+#main{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+}
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+  /*.open-slide{display:none}*/
+}
+.aa button:hover{
+      background: linear-gradient(57deg, #1E4D92, #00C6A7 );   
+}
+    </style>
+
+            
+    </head>
+    <body>
+     <nav style="background:linear-gradient(lightseagreen,blue);" class="navbar navbar-expand-sm navbar-dark Fixed-top" >
+      
+    <span class="open-slide">
+        
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+        
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+        <a href="index.html" class="navbar-brand pl-2 font-weight-bold"  ><h2>Coders</h2></a>
+      
+    </span>
+
+    <ul class="navbar-nav">
+
+       <li><a href="#">Home</a></li>
+      <li><a href="aboutus.html">About</a></li>
+      <li><a href="Services.html">Services</a></li>
+      <li><a href="#s">Contact</a></li>
+     
+     
+    </ul>
+  </nav>
+
+  <div id="side-menu" class="side-nav" style="background:linear-gradient(lightseagreen,blue);">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+       <li><a href="#">Home</a></li>
+      <li><a href="aboutus.html">About</a></li>
+      <li><a href="Services.html">Services</a></li>
+      <li><a href="#s">Contact</a></li>
+   
+     
+  </div>
+
+    <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+                                           <!-- End top Home system ############-->      
+<style>
+  .containera {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+/*devide two parts*/
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  } 
+}
+
+</style>     
+    
+
+        
+    <div style=" background:linear-gradient(lightseagreen,blue);height: 610px; height: 100%; size: 500px; width:100%; padding:10px; margin-top:1px; margin-bottom: 25px;"   >
+   
+    
+        <div class="row justify-content-left">
+            <div style=" border-radius: 10px;    
+               
+                height:600px; 
+                width:650px;
+                padding: 10px;
+              
+                size: 500px;
+              margin-left: 1px;
+                background: linear-gradient(lightseagreen,blue);">
+           
+            <a download="" href="PdfFiles/local and global variable.pdf"><input type="button" value="Download"></a>
+            <br>
+       
+        <iframe id="show_pdf"src="C++Folder/PdfFiles/local and global variable.pdf"  style="width:100%; height: 540px;"></iframe>
+            </div>
+       
+            <div style=" border-radius: 10px;    
+               box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+               height:595px; 
+               width:697px;
+               padding: 10px;
+               margin: 0px;
+               margin-right: 0px;
+               background:linear-gradient(lightseagreen,blue);">
+               <iframe id="show_pdf" src="index_2_1.php" style="width:101%; border: 0; height: 575px;"></iframe>
+       
+            </div>   
+        </div><br>
+<!--End Services Section############################################# -->
+                                 <!--############################################# -->
+                         <!--Start Contact Section############################################# -->
+
+                      
+<div style=" background:linear-gradient(lightseagreen,blue);  border-radius: 10px; width:105%; padding:10px;"   >
+    <h1 class="text-center pt-2 pb-2" style="color:white" >Contact Us</h1>
+        <form action="/shop/contact/"style="width:100%;" method="post">
+            <div class="form-group" style="width:100%;">
+               <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" name='name' placeholder="Enter Your Name">
+            </div>
+            <div class="form-group" style="width:100%;">
+               <label for="name">Email</label>
+                   <input type="email" class="form-control" id="email" name='email' placeholder="Enter Your Email">
+            </div>
+
+            <div class="form-group"style="width:100%;">
+                <label for="name">Phone</label>
+                    <input type="tel" class="form-control" id="phone" name='phone' placeholder="Enter Your Phone Number">
+            </div>
+
+
+            <div class="form-group"style="width:100%;">
+                <label for="desc">How May We Help You?</label>
+                    <textarea class="form-control" id="desc" name='desc' rows="3"></textarea>
+            </div>
+            
+               <button type="submit" class="btn btn-success"style="width:100%; ">Submit</button>
+               
+        </form>
+</div><br>
+                         
+
+                      <!--End Contact Section############################################# -->
+                               <!--############################################# -->
+                       <!-- Start Team Section############################################# -->
+                         <!--End Contact Section############################################# -->
+                               <!--############################################# -->
+                       <!-- Start Team Section############################################# -->
+                  
+<section class="trainer_area section_gap_top" style="margin-top:10px; background:linear-gradient(lightseagreen,black); ">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="main_title">
+                <h2 class="mb-3" style="text-align:center;">Our Team</h2>
+                    <p style="text-align:center;">
+                      Our Team Trying To Provide Best Facilities
+                    </p>
+            </div>
+          </div>
+        </div>
+     <div class="row justify-content-center d-flex align-items-center">
+        <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+           <div class="thumb d-flex justify-content-sm-center">
+            <img class="img-fluid" src="img/sunny.jpg"style="width:250px;" alt="" />
+           </div>
+            <div class="meta-text text-sm-center">
+                <h4 style=color:white;">Sunny Chourasiya</h4>
+                   <p class="designation" style=color:white;"> web designer</p>
+                    <div class="mb-4">
+                       <p style=color:white;">
+                          If you are looking at blank cassettes on the web, you may be very confused at the.
+                       </p>
+                    </div>
+                <div class="align-items-center justify-content-center d-flex">
+                    <a href="#"><i class="ti-facebook"></i></a>
+                     <a href="#"><i class="ti-twitter"></i></a>
+                     <a href="#"><i class="ti-linkedin"></i></a>
+                     <a href="#"><i class="ti-pinterest"></i></a>
+                </div>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/sunny.jpg"style="width:250px;" alt="" />
+            </div>
+              <div class="meta-text text-sm-center">
+                <h4 style=color:white;">Ajay Kumar Verma</h4>
+                  <p class="designation" style=color:white;">Notes Provider</p>
+              <div class="mb-4">
+                 <p style=color:white;">
+                  If you are looking at blank cassettes on the web, you may be very confused at the.
+                 </p>
+              </div>
+            <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/sunny.jpg"style="width:250px" alt="" />
+            </div>
+               <div class="meta-text text-sm-center">
+                  <h4 style=color:white;">Pradeep</h4>
+                    <p class="designation"style=color:white;">Videos Provider</p>
+                  <div class="mb-4">
+                     <p style=color:white;">
+                  If you are looking at blank cassettes on the web, you may be very confused at the.
+                     </p>
+                  </div>
+            <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+            </div>
+         </div>
+        </div>
+
+          
+     </div>
+   </div>
+</section>
+
+                      <!--End Team Section############################################# -->
+                             <!--############################################# -->
+                      <!--Start About Section############################################# -->
+
+
+                      
+                      
+<footer class="container" style="min-width:105%; margin-top: 0px;" >
+    <div class="row text-white bg-dark" style="border-top:3px solid blue;
+        padding:0px;
+        width:100%;">
+        <div class="row">
+            <div class="col-md-5" style="text-align:center; ">
+                <h3 style="margin:20px;">About Programming Zone</h3>
+                <p style="margin:20px;">PROGRAMMING ZONE provides free programming languages notes,Video, Programming Questions and projects</p>
+            </div>
+
+            <div class="col-md-1 ml-auto">
+                <h3  style="margin-left:20px;">Links</h3>
+                    <ul style="margin-left:20px;" class="list-unstyled footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#languages">Courses</a></li>
+                        <li><a href="#programming">Programming Questions</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+
+                    </ul>
+            </div>
+        </div>
+
+            <div class="col-lg-12">
+                <div >
+                   <span >Follow Us :</span>
+                     <a target="_blank" href="https://www.facebook.com/Programming Zone"  ><i class="fab fa-facebook pr-3 fa-lg"></i></a>
+                     <a target="_blank" href="https://twitter.com/ ProgrammingZone" ><i class="fab fa-twitter pr-3 fa-lg"></i></a>
+                     <a target="_blank" href="#" ><i class="fab fa-youtube pr-3 fa-lg"></i></a>
+                        
+                 </div>
+            </div> <br><br>
+            <div class="col-md-12 text-center">
+                <small> Copyright © 2019 All rights reserved  | Designed by <a href="#" style="color:green">CODERS</a></small>
+            </div> <br><br>
+    </div>
+</footer>
+
+
+             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+      
+    </body>
+</html>

@@ -1,0 +1,105 @@
+        h4 {
+                font-family: "Times New Roman", Times, serif;
+            }
+            p {
+                font-family:georgia,garamond,serif;
+            }
+            span {
+                font-family:georgia,garamond,serif;
+            }
+            h1 {
+                font-family:georgia,garamond,serif;
+            }
+            h2 {
+                font-family: "Times New Roman", Times, serif;
+            }
+            h3 {
+                font-family: "Times New Roman", Times, serif;
+            }
+            
+            
+            
+            
+            body {
+                font-family: 'Varela Round', sans-serif;
+            }
+            .Header {
+                position: relative;
+                height: 80vh;
+              
+            }
+            .Header-background {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(#0799fa, #21d4fd);
+                -webkit-transform-origin: 0px 0px;
+                transform-origin: 0px 0px;
+                -webkit-transform: skewY(-10deg);
+                transform: skewY(-10deg);
+                overflow: hidden;
+                z-index: -1;
+            }
+            .Header-background::before,
+            .Header-background::after {
+                display: block;
+                position: absolute;
+                content: '';
+                width: 80%;
+                height: 33.333333333333336%;
+                opacity: 0.3;
+                -webkit-filter: blur(15px);
+                filter: blur(15px);
+            }
+            .Header-background::before {
+                background:#0799fa;
+                right: 0;
+            }
+            .Header-background::after {
+                background:#0799fa;
+                bottom: 0;
+            }
+            .Header-content {
+                text-align: center;
+                padding: 4rem 4rem;
+                margin: 0 auto;
+            }
+            @media (min-width: 58rem) {
+                .Header-content {
+                    text-align: left;
+                    padding: 10rem 4rem;
+                    max-width: 54rem;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            .Header-sun h2,
+            .Header-sun p {
+                color: #fff;
+                text-shadow: 0 0.5rem 1rem rgba(50,0,100,0.1);
+            }
+            .Header-sun h2 {
+                margin: 0;
+                font-size: 3rem;
+            }
+            .Header-sun p {
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+            }
+            .Header-visuals {
+                position: relative;
+                margin-top: 5rem;
+                -webkit-transform: rotate(-10deg);
+                transform: rotate(-10deg);
+            }
+            @media (min-width: 58rem) {
+                .Header-visuals {
+                    margin: 0;
+                    -webkit-transform: translateY(-5rem) rotate(-10deg);
+                    transform: translateY(-5rem) rotate(-10deg);
+                }
+            }
+            
+
